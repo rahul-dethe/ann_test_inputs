@@ -1,0 +1,16 @@
+Welcome!
+
+This README is a quick short guide which will help you to run a job using ANN-CI. Here, you'll find step-by-step instructions to get started with ANN-CI.
+
+You will see 3 directories 14_site_chain, 18_site_chain, 20_site_chain and 1 file named as test_script.sh
+
+STEP 1 - Make a copy of the file test_script.sh (Example -> cp test_script.sh test_script_copy.sh)
+STEP 2 - Copy test_script_copy.sh into any one directory mentioned above and then get into that directory. (Example -> cp test_script.sh /14_site_chain)
+STEP 3 - Open test_script_copy.sh using any editor (Example -> vi test_script_copy.sh)
+STEP 4 - At the bottom add a new line and type exe.py <input_file.in> (Example -> exe.py test.in)
+STEP 5 - Run test_script_copy.sh using slurm (Example -> sbatch test_script_copy.sh)
+Now wait till you get 10 output files.
+ 
+If you encounter any difficulties while using ANN-CI, feel free to reach out to our friendly support team at mscchelp@gmail.com. We're always happy to assist you.
+
+
